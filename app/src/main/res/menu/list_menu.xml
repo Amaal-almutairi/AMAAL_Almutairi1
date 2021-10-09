@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:App="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/add"
+        android:title="Addition"
+        android:onClick="Addition"
+        App:showAsAction="never"/>
+
+    <item android:id="@+id/Sub"
+        android:title="Subtraction"
+        android:onClick="Subtraction"/>
+</menu>
